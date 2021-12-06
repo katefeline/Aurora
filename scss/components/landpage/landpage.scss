@@ -1,0 +1,21 @@
+.landpage {
+  background-image: url("./../img/bg.png");
+  @extend %bg;
+  color: white;
+  position: relative;
+  height: 756px;
+  left: 0;
+  top: 0;
+
+  h1 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0;
+    text-align: center;
+    align-content: center;
+    padding-top: 320px;
+  }
+}

@@ -1,0 +1,313 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.btn-check:focus + .btn, .btn:focus {
+  box-shadow: none;
+  border: none;
+}
+
+h4 {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+p {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.0833333358px;
+  text-align: right;
+}
+
+.container {
+  max-width: 1377px;
+}
+
+.landpage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+header {
+  overflow: hidden;
+}
+header .header .row {
+  height: 24px;
+}
+header .header .row .header__elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header .header .row .header__elements .header__elements__cart {
+  position: absolute;
+  right: 20px;
+}
+header .header .row .header__elements .header__elements__cart p {
+  color: black;
+  z-index: 1;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.0833333358px;
+  text-align: right;
+}
+header .header .row .header__elements .header__elements__cart p:before {
+  content: url("./../img/maps.png");
+}
+
+.block {
+  background: linear-gradient(180deg, rgba(51, 51, 51, 0.9) 14.31%, rgba(27, 27, 27, 0.469176) 58.6%, rgba(0, 0, 0, 0.0001) 100%);
+  opacity: 24%;
+  position: absolute;
+  z-index: 100;
+  height: 140px;
+}
+
+.top_navs {
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  margin-top: 16px;
+  top: 30px;
+}
+.top_navs .block__main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.top_navs .block__main .block__logo h3 {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.9499999881px;
+  text-align: left;
+  color: white;
+  text-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+.top_navs .block__main .block__search {
+  justify-content: center;
+}
+.top_navs .block__main .block__search #form1 {
+  width: 584px;
+  color: white;
+  border: none;
+  height: 48px;
+  left: 0;
+  top: 0;
+  border-radius: 3px;
+  background: rgba(247, 247, 247, 0.24);
+}
+.top_navs .block__main .block__search #form1::placeholder {
+  color: white;
+}
+.top_navs .block__main .block__search #search-button {
+  border: none;
+  background: rgba(247, 247, 247, 0.24);
+}
+.top_navs .block__main .block__search #search-button:focus {
+  box-shadow: none;
+  border: none;
+}
+.top_navs .block__main .block__form button {
+  color: white;
+  text-decoration: none;
+}
+.top_navs .block__main .block__form button a:hover {
+  color: yellow;
+}
+.top_navs .navbar-nav {
+  margin-right: 0;
+}
+.top_navs .navbar-nav .nav-item {
+  margin-right: 31px;
+  background: transparent;
+}
+.top_navs .navbar-nav .nav-item:first-child {
+  margin-left: 213px;
+}
+.top_navs .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.top_navs .navbar-nav .nav-item .nav-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+.top_navs .navbar-nav .nav-item .dropdown-menu {
+  border: none;
+}
+.top_navs .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  color: white;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
+
+#vertical-line {
+  color: white;
+}
+
+#navbar {
+  margin-top: 24px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+ul.dropdown-menu {
+  background: transparent;
+}
+
+@media (max-width: 992px) {
+  .top_navs .block__main .block__search #form1 {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .top_navs .block__main .block__search #form1 {
+    display: none;
+  }
+  .top_navs .block__main .block__search #search-button {
+    background: transparent;
+  }
+  .top_navs .block__main .block__form {
+    order: 3;
+  }
+  .top_navs .block__main .block__logo {
+    order: 2;
+  }
+}
+.landpage {
+  background-image: url("./../img/bg.png");
+  color: white;
+  position: relative;
+  height: 756px;
+  left: 0;
+  top: 0;
+}
+.landpage h1 {
+  color: white;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: 0;
+  text-align: center;
+  align-content: center;
+  padding-top: 320px;
+}
+
+.newsletter {
+  margin: 32px;
+}
+.newsletter .newsletter__text {
+  max-width: 458px;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+.newsletter .newsletter__text p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.8727272749px;
+  text-align: left;
+}
+.newsletter .newsletter__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.newsletter .newsletter__form form input {
+  width: 334px;
+  height: 32px;
+  padding: 8px 0 7px 11px;
+  border: 1px solid #E1E0E1;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+#register__button {
+  width: 94px;
+  height: 32px;
+  background-color: black;
+  color: white;
+}
+
+footer {
+  padding-top: 26px;
+  background-color: #f7f7f7;
+}
+footer .footer__nav {
+  justify-content: center;
+}
+footer .footer__nav .footer__nav__col {
+  width: 146px;
+  margin-right: 40px;
+}
+footer .footer__nav .footer__nav__col h6 {
+  font-family: Cormorant Garamond, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 1.1636363268px;
+  text-align: left;
+}
+footer .footer__nav .footer__nav__col p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.1000000015px;
+  text-align: left;
+  margin-bottom: 6px;
+}
+footer .footer__nav .footer__nav__col ul {
+  margin-top: 16px;
+  padding-left: 0;
+}
+footer .footer__nav .footer__nav__col ul li {
+  display: inline;
+  margin-right: 16px;
+}
+
+#social {
+  width: 200px;
+  margin-right: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

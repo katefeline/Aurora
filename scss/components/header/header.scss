@@ -1,0 +1,41 @@
+header {
+  overflow: hidden;
+  .header {
+    .row {
+      height: 24px;
+
+      .header__elements {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .header__elements__header {
+
+        }
+
+        .header__elements__cart {
+          position: absolute;
+          right: 20px;
+
+
+          p {
+            color: black;
+            z-index: 1;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 15px;
+            letter-spacing: 0.0833333358168602px;
+            text-align: right;
+
+            &:before {
+              content: url("./../img/maps.png");
+            }
+          }
+        }
+
+      }
+
+    }
+  }
+}

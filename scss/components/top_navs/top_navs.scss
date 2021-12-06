@@ -1,0 +1,130 @@
+.top_navs {
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  margin-top: 16px;
+  top: 30px;
+
+  .block__main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    .block__logo {
+      h3 {
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0.949999988079071px;
+        text-align: left;
+        color: white;
+        text-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+      }
+    }
+
+    .block__search {
+      justify-content: center;
+
+      #form1 {
+        width: 584px;
+        color: white;
+        border: none;
+        height: 48px;
+        left: 0;
+        top: 0;
+        border-radius: 3px;
+        background: rgba(247, 247, 247, 0.24);
+
+        &::placeholder {
+          color: white;
+        }
+      }
+
+      #search-button {
+        border: none;
+        background: rgba(247, 247, 247, 0.24);
+
+        &:focus {
+          box-shadow: none;
+          border: none;
+        }
+      }
+
+    }
+
+    .block__form {
+      button {
+        color: white;
+        text-decoration: none;
+
+        a:hover {
+          color: yellow;
+        }
+      }
+
+    }
+
+  }
+
+  .navbar-nav {
+    margin-right: 0;
+    .nav-item {
+      margin-right: 31px;
+      background: transparent;
+
+      &:first-child {
+        margin-left: 213px;
+      }
+
+
+      .nav-link {
+        text-transform: uppercase;
+        color: white;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 1px;
+        text-align: center;
+
+        &:hover {
+          text-decoration: underline;
+          text-decoration-thickness: 3px;
+        }
+      }
+
+      .dropdown-menu {
+        border: none;
+
+        .dropdown-item {
+          color: white;
+        }
+      }
+    }
+
+  }
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
+
+#vertical-line {
+  color: white;
+}
+
+#navbar {
+  margin-top: 24px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+
+ul.dropdown-menu  {
+  background: transparent;
+}

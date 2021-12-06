@@ -1,0 +1,45 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+  box-shadow: none;
+  border: none;
+}
+
+h4 {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+p {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.0833333358168602px;
+  text-align: right;
+}
+
+.container {
+  max-width: 1377px;
+}

@@ -1,0 +1,36 @@
+@media (max-width: 992px) {
+  .top_navs {
+    .block__main {
+      .block__search {
+        #form1 {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .top_navs {
+    .block__main {
+      .block__search {
+        #form1 {
+          display: none;
+        }
+
+        #search-button {
+          background: transparent;
+        }
+      }
+
+      .block__form {
+        order: 3;
+      }
+
+      .block__logo {
+        order: 2;
+      }
+    }
+
+  }
+}

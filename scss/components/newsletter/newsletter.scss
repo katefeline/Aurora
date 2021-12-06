@@ -1,0 +1,44 @@
+.newsletter {
+  margin: 32px;
+
+
+  .newsletter__text {
+    max-width: 458px;
+    justify-content: center;
+    margin-bottom: 14px;
+
+    p {
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0.8727272748947144px;
+      text-align: left;
+    }
+  }
+
+  .newsletter__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    form {
+      input {
+        width: 334px;
+        height: 32px;
+        padding: 8px 0 7px 11px;
+        border: 1px solid #E1E0E1;
+        box-sizing: border-box;
+        border-radius: 3px;
+      }
+
+    }
+  }
+}
+
+#register__button {
+  width: 94px;
+  height: 32px;
+  background-color: black;
+  color: white;
+}
